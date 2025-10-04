@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Hackers Server | PC Security & Support</title>
+    <!-- Load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles to ensure professional look */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Dark background */
+            color: #e5e7eb; /* Light text */
+        }
+        .security-gradient-btn {
+            background-image: linear-gradient(to right, #059669 0%, #34d399 100%);
+            transition: all 0.3s ease;
+        }
+        .security-gradient-btn:hover {
+            box-shadow: 0 4px 15px 0 rgba(52, 211, 153, 0.4);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Developer Customization Note:
+         ------------------------------------------------------------------
+         As the developer, you can easily modify the content in the following sections:
+         1. Company Name & Slogan (Header section)
+         2. Hero Content (Introduction section)
+         3. Attack Vector details (The "How You Can Be Attacked" cards)
+         4. Security Steps (The numbered list in "Simple Steps to Get Secured")
+         5. Support Email Address (The 'mailto:' link href in the Contact section)
+         ------------------------------------------------------------------
+    -->
+
+    <!-- Header & Navigation -->
+    <header class="p-4 border-b border-gray-700 shadow-lg sticky top-0 z-50 bg-opacity-95 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Company Name / Logo -->
+            <div class="text-2xl font-bold text-green-400">
+                Anti-Hackers Server
+            </div>
+            <!-- Navigation (Simple for this example) -->
+            <nav class="space-x-4">
+                <a href="#attacks" class="text-gray-300 hover:text-green-400 transition duration-200">Threats</a>
+                <a href="#steps" class="text-gray-300 hover:text-green-400 transition duration-200">Secure Now</a>
+                <a href="#contact" class="text-gray-300 hover:text-green-400 transition duration-200">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-6 lg:p-10">
+
+        <!-- 1. Hero / Introduction Section -->
+        <section class="text-center py-20">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">
+                Your Digital Fortress <span class="text-green-400">Starts Here.</span>
+            </h1>
+            <p class="text-xl text-gray-400 max-w-3xl mx-auto mb-8">
+                We provide immediate, simple solutions to protect your PC, data, and privacy from the latest cyber threats. Security doesn't have to be complicated.
+            </p>
+            <a href="#contact" class="inline-block px-8 py-3 rounded-full text-lg font-semibold text-gray-900 security-gradient-btn">
+                Get Secured Today
+            </a>
+        </section>
+
+        <!-- 2. How You Can Be Attacked Section (Awareness) -->
+        <section id="attacks" class="py-16">
+            <h2 class="text-4xl font-bold text-center mb-12 border-b-2 border-green-500 pb-2 inline-block mx-auto">
+                How You Can Be Attacked
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Attack Card 1: Phishing -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 hover:border-green-500 transition duration-300">
+                    <svg class="w-10 h-10 text-red-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <h3 class="text-2xl font-semibold mb-3 text-red-300">1. Phishing Scams</h3>
+                    <!-- Developer Note: Modify this detailed description -->
+                    <p class="text-gray-400">
+                        Attackers send fraudulent emails or messages disguised as trusted entities (like your bank or a company). They trick you into clicking a malicious link or entering personal credentials on a fake website. Always verify the sender's actual email address.
+                    </p>
+                </div>
+
+                <!-- Attack Card 2: Malware & Ransomware -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 hover:border-green-500 transition duration-300">
+                    <svg class="w-10 h-10 text-red-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.001 12.001 0 002.944 12c.045 4.101 2.502 7.632 6.279 9.176a12.001 12.001 0 0011.666-8.618 12.001 12.001 0 00-3.04-8.618z"></path></svg>
+                    <h3 class="text-2xl font-semibold mb-3 text-red-300">2. Malware & Viruses</h3>
+                    <!-- Developer Note: Modify this detailed description -->
+                    <p class="text-gray-400">
+                        Malicious software (like viruses, trojans, or spyware) can infect your PC through fake downloads or infected USB drives. Ransomware is a type of malware that locks your files until a ransom is paid. Keep your OS and antivirus updated!
+                    </p>
+                </div>
+
+                <!-- Attack Card 3: Weak Credentials -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 hover:border-green-500 transition duration-300">
+                    <svg class="w-10 h-10 text-red-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    <h3 class="text-2xl font-semibold mb-3 text-red-300">3. Weak Passwords</h3>
+                    <!-- Developer Note: Modify this detailed description -->
+                    <p class="text-gray-400">
+                        If you use simple passwords (like "123456" or "password") or reuse the same password across multiple sites, hackers can easily guess them or use data from one site breach to access all your accounts. Use a password manager and Multi-Factor Authentication (MFA).
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. Simple Steps to Get Secured Section (Mitigation) -->
+        <section id="steps" class="py-16 bg-gray-900 rounded-xl mt-12 p-8 md:p-12">
+            <h2 class="text-4xl font-bold text-center mb-12 text-green-400">
+                Simple Steps to Get Secured
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <ol class="space-y-6">
+                    <!-- Developer Note: Modify these specific security steps -->
+                    <li class="flex items-start space-x-4">
+                        <span class="text-2xl font-extrabold text-green-400 bg-green-900 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</span>
+                        <div>
+                            <p class="text-xl font-semibold">Enable Multi-Factor Authentication (MFA)</p>
+                            <p class="text-gray-400">Turn on two-factor authentication for all critical accounts (email, bank, social media). This makes it almost impossible for a hacker to log in, even if they have your password.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start space-x-4">
+                        <span class="text-2xl font-extrabold text-green-400 bg-green-900 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</span>
+                        <div>
+                            <p class="text-xl font-semibold">Keep Your Software Updated</p>
+                            <p class="text-gray-400">Regularly update your operating system (Windows, macOS), browser, and antivirus. Updates often include critical security patches that fix known vulnerabilities.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start space-x-4">
+                        <span class="text-2xl font-extrabold text-green-400 bg-green-900 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</span>
+                        <div>
+                            <p class="text-xl font-semibold">Backup Your Data Regularly</p>
+                            <p class="text-gray-400">Store important files on an external drive or cloud service. This ensures you can recover your data quickly if your PC is hit by ransomware or a hardware failure.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start space-x-4">
+                        <span class="text-2xl font-extrabold text-green-400 bg-green-900 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">4</span>
+                        <div>
+                            <p class="text-xl font-semibold">Be Skeptical of Links and Attachments</p>
+                            <p class="text-gray-400">If an email seems suspicious, do not click links or download attachments. Instead, navigate directly to the company's official website in your browser.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+
+        <!-- 4. Contact / Support CTA Section -->
+        <section id="contact" class="text-center py-20 bg-gray-800 rounded-xl mt-12 shadow-2xl">
+            <h2 class="text-4xl font-bold mb-4">
+                Need Immediate Help?
+            </h2>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+                If you suspect your PC has been compromised or have any security questions, use our automated support link below.
+            </p>
+            
+            <!-- Automated Email Link CTA -->
+            <!-- Developer Note: CHANGE THE EMAIL ADDRESS below to your actual support email -->
+            <a href="mailto:support@antihackersserver.com?subject=URGENT%20PC%20Security%20Issue%20-%20Please%20Help"
+               class="inline-flex items-center px-10 py-4 rounded-full text-xl font-bold text-gray-900 security-gradient-btn focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50">
+                <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 4v7a2 2 0 01-2 2H5a2 2 0 01-2-2v-7"></path></svg>
+                Click to Send Automated Support Email
+            </a>
+            <p class="text-sm text-gray-500 mt-4">
+                (This link opens your default email client with a pre-filled subject line for rapid response.)
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-16 p-6 border-t border-gray-800 text-center text-gray-500">
+        <p>&copy; 2025 Anti-Hackers Server. All rights reserved. | Securing your digital world, one PC at a time.</p>
+    </footer>
+
+</body>
+</html>
